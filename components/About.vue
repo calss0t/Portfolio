@@ -5,9 +5,9 @@
             (every sport, even snooker and darts) and I love talking and discussing it with people. I also enjoy
             contributing to other people projects and working on my own ideas.</p>
         <div>
-            <NuxtLink to="./../resume.pdf"  type="application/pdf" target="_blank">Resume</NuxtLink>
+            <NuxtLink to="https://portfolio-git-master-calss0t.vercel.app/resume.pdf"  type="application/pdf" target="_blank">Resume</NuxtLink>
 
-            <a href="./../resume.pdf" type="application/pdf" target="_blank">Resume 2</a>
+            <a href="https://portfolio-git-master-calss0t.vercel.app/resume.pdf" type="application/pdf" target="_blank">Resume 2</a>
 
 
         </div>
