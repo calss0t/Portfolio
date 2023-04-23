@@ -1,24 +1,31 @@
 <template>
     <div>
-        <header>
-            <nav>
-                <NuxtLink to="/"> Nuxt Dojo</NuxtLink>
-                <ul>
-                    <li> <NuxtLink to="/"> Home </NuxtLink> </li>
-                    <li> <NuxtLink to="/about"> About </NuxtLink> </li>
-                    <li> <NuxtLink to="/portfolio"> Portfolio </NuxtLink> </li>
+        <header class="shadow-sm bg-white">
+            <nav class="container mx-auto p-4 flex justify-between">
+                <NuxtLink to="/" class="font-bold">Pol Texido</NuxtLink> <!-- Change to logo -->
+                <ul class="flex gap-4">
+                    <li>
+                        <NuxtLink to="/"> Home </NuxtLink>
+                    </li>
+                    <li>
+                        <NuxtLink to="/about"> About </NuxtLink>
+                    </li>
+                    <li>
+                        <NuxtLink to="/portfolio"> Portfolio </NuxtLink>
+                    </li>
+                    <li>
+                        <NuxtLink to="/contact"> Contact me </NuxtLink>
+                    </li>
                 </ul>
             </nav>
         </header>
 
-        <div>
-            <slot/>
+        <div class="container mx-auto p-4">
+            <slot />
         </div>
-        </div>
+    </div>
 </template>
 
-<style scoped>
-    .router-link-exact-active{
-        color: green
-    }
-</style>
+<style scoped>.router-link-exact-active {
+    color: green
+}</style>

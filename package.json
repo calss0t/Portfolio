@@ -12,5 +12,8 @@
     "@nuxtjs/eslint-module": "^4.0.2",
     "@types/node": "^18",
     "nuxt": "^3.4.2"
+  },
+  "dependencies": {
+    "@nuxtjs/tailwindcss": "^6.6.6"
   }
 }

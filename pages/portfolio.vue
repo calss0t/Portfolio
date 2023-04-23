@@ -10,9 +10,9 @@
 </template>
 
 <script setup>
-definePageMeta({
-    layout: 'portfolio'
-})
+// definePageMeta({
+//     layout: 'portfolio'
+// })
 </script>
 
 <style scoped>

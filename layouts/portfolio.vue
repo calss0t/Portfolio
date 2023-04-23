@@ -1,18 +1,17 @@
 <template>
     <div>
-        <header>
-            <nav>
-                <NuxtLink to="/"> Nuxt Dojo</NuxtLink>
-                
+        <header class="shadow-sm bg-white">
+            <nav class="container mx-auto p-4">
+                <NuxtLink to="/" class="font-bold"> Nuxt Dojo</NuxtLink>
             </nav>
         </header>
 
-        <div>
+        <div class="container mx-auto p-4">
             <slot />
         </div>
 
-        <footer>
-            <ul>
+        <footer class="container mx-auto p-4 felx justify-between border-t-2">
+            <ul class="felx gap-4">
                     <li>
                         <NuxtLink to="/"> Home </NuxtLink>
                     </li>
@@ -31,6 +30,9 @@
     /* body {
         background-color: coral;
     } */
+    h2 {
+        font-size: 60px;
+    }
     .router-link-exact-active {
         color: green
     }
