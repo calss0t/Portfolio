@@ -1,10 +1,7 @@
 <template>
     <div>
-        <h2>Home</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit minima, repellendus deleniti nam neque quisquam
-            illum aliquam omnis nulla explicabo.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit minima, repellendus deleniti nam neque quisquam
-            illum aliquam omnis nulla explicabo.</p>
+        <h1>Pol Texido</h1>
+        <h2>Fullstack developer</h2>
 
         <About />
         <Portfolio />
@@ -18,12 +15,16 @@
 </script>
 
 <style scoped>
-h2 {
+h1 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 100px;
+    text-align: center;
 }
 
-p {
+h2 {
     margin: 20px;
+    font-size: 50px;
+    color: grey;
+    text-align: center;
 }
 </style>

@@ -14,7 +14,7 @@
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+    text-align: center;}
 
 p {
     margin: 20px;
