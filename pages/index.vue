@@ -6,6 +6,7 @@
         <h2>Fullstack developer</h2>
 
         <About id="about" />
+        <Skills id="skills" />
         <Portfolio id="portfolio" />
         <Contact id="contact" />
 
@@ -18,6 +19,14 @@
 </script>
 
 <style scoped>
+#about {
+    width: 100%;
+    background-color: #f5f5f5;
+    /* margin-bottom: 190px; */
+}
+div{
+    background-color: #F2F0ED;
+}
 h1 {
     margin-bottom: 20px;
     font-size: 100px;

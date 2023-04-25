@@ -1,25 +1,23 @@
 <template>
     <div>
-        <br>
-        <br>
-        <br>
-        <h2>Portfolio</h2>
         <div id="Project">
+            <h2>Portfolio</h2>
+            <p id="subtitle">Latest Projects</p>
             <div id="Card">
                 <NuxtLink to="https://play.google.com/store/apps/details?id=com.tomotabi.TomoTabi" target="_blank">
-                    <div class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row 
-                hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <div class="flex flex-col items-center rounded-lg shadow md:flex-row 
+                hover:bg-orange-200">
                         <img class="object-cover rounded-t-lg md:rounded-none md:rounded-l-lg"
                             src="./../images/TomoTabi.png" alt="">
                         <div class="flex flex-col justify-between p-4 leading-normal">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">TomoTabi</h5>
-                            <h6 class="mb-2 tracking-tight text-gray-900 dark:text-white">Fullstack developer and product
+                            <h5>TomoTabi</h5>
+                            <h6>Fullstack developer and product
                                 owner
                             </h6>
                             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Android application to plan your
                                 next trip with your friends and keep track of expenses and how much money is owed after the
                                 trip. This app is deployed on the Google Store play.</p>
-                            <h3 class="mb-2 tracking-tight text-gray-900 dark:text-white">Stack:</h3>
+                            <h3>Stack:</h3>
                             <div class="flex flex-row justify-between">
                                 <img alt="JavaScript" id="logo"
                                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
@@ -45,20 +43,15 @@
                     </div>
                 </NuxtLink>
             </div>
-        </div>
-        <div id="Project">
-
-
-
             <div id="Card">
                 <NuxtLink to="https://github.com/calss0t/Saga" target="_blank">
-                    <div class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row 
-                hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <div class="flex flex-col items-center rounded-lg shadow md:flex-row 
+                hover:bg-orange-100">
                         <img class="object-cover rounded-t-lg md:rounded-none md:rounded-l-lg" src="./../images/Saga.png"
                             alt="">
                         <div class="flex flex-col justify-between p-4 leading-normal">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Saga</h5>
-                            <h6 class="mb-2 tracking-tight text-gray-900 dark:text-white">Backend developer</h6>
+                            <h5>Saga</h5>
+                            <h6>Backend developer</h6>
                             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Saga is an app that displays the
                                 top
                                 movies and TV shows of the moment. It also let's you make reviews and activate/deactivate an
@@ -66,7 +59,7 @@
                                 the
                                 routes and worked on creating the database.
                             </p>
-                            <h3 class="mb-2 tracking-tight text-gray-900 dark:text-white">Stack:</h3>
+                            <h3>Stack:</h3>
                             <div class="flex flex-row justify-between">
                                 <img alt="JavaScript" id="logo"
                                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
@@ -90,22 +83,20 @@
                     </div>
                 </NuxtLink>
             </div>
-        </div>
-        <div id="Project">
             <div id="Card">
                 <NuxtLink to="https://github.com/calss0t/Twin-Shot" target="_blank">
-                    <div class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row 
-                hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <div class="flex flex-col items-center rounded-lg shadow md:flex-row 
+                hover:bg-orange-100">
                         <img class="object-cover rounded-t-lg md:rounded-none md:rounded-l-lg"
                             src="./../images/Twin-shot.png" alt="">
                         <div class="flex flex-col justify-between p-4 leading-normal">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Twin shot</h5>
-                            <h6 class="mb-2 tracking-tight text-gray-900 dark:text-white">Fullstack developer</h6>
+                            <h5>Twin shot</h5>
+                            <h6>Fullstack developer</h6>
                             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Twin shot is web application that
                                 helps
                                 you keep up to date with your favourite sport teams and leagues.
                             </p>
-                            <h3 class="mb-2 tracking-tight text-gray-900 dark:text-white">Stack:</h3>
+                            <h3>Stack:</h3>
                             <div class="flex flex-row justify-between">
                                 <img alt="JavaScript" id="logo"
                                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
@@ -126,31 +117,29 @@
                     </div>
                 </NuxtLink>
             </div>
-        </div>
-        <div id="Project">
             <div id="Card">
                 <NuxtLink to="https://polyglottal.vercel.app/" target="_blank">
-                    <div class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row 
-                hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <div class="flex flex-col items-center rounded-lg shadow md:flex-row 
+                hover:bg-orange-100">
                         <img class="object-cover rounded-t-lg md:rounded-none md:rounded-l-lg" src="./../images/Restore.png"
                             alt="">
                         <div class="flex flex-col justify-between p-4 leading-normal">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Restore</h5>
-                            <h6 class="mb-2 tracking-tight text-gray-900 dark:text-white">Fullstack developer</h6>
+                            <h5>Restore</h5>
+                            <h6>Fullstack developer</h6>
                             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Restore is a web application where
                                 you
                                 can play games.
                             </p>
-                            <h3 class="mb-2 tracking-tight text-gray-900 dark:text-white">Stack:</h3>
+                            <h3>Stack:</h3>
                             <div class="flex flex-row justify-between">
                                 <img alt="Python3" id="logo" src="https://img.icons8.com/color/512/python.png" />
                                 <img alt="Django" id="logo"
                                     src="https://toppng.com/uploads/preview/django-python-logo-apress-the-definitive-guide-to-django-web-development-11562875828mqany5qert.png" />
-                                    <img alt="HTML5" id="logo"
+                                <img alt="HTML5" id="logo"
                                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
                                 <img alt="CSS3" id="logo"
                                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
-                                    <img alt="JavaScript" id="logo"
+                                <img alt="JavaScript" id="logo"
                                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                                 <img alt="Vercel" id="logo"
                                     src="https://camo.githubusercontent.com/add2c9721e333f0043ac938f3dadbc26a282776e01b95b308fcaba5afaf74ae3/68747470733a2f2f6173736574732e76657263656c2e636f6d2f696d6167652f75706c6f61642f76313538383830353835382f7265706f7369746f726965732f76657263656c2f6c6f676f2e706e67" />
@@ -171,18 +160,18 @@
 
 <style scoped>
 #Card {
+    background-color: #F2F0ED;
+    border-radius: 8px;
     margin: auto;
     width: 60%;
     justify-content: center;
+    margin-bottom: 60px;
 }
 
 #Project {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-#Project:nth-child(even) {
-    background-color: rgb(176, 175, 175);
+    background-color: #F5F5F5;
+    padding-top: 100px;
+    padding-bottom: 80px;
 }
 
 #logo {
@@ -196,16 +185,59 @@ img {
     height: 300px;
 }
 
-/* div {
-    margin: auto;
-} */
+h5 {
+    font-family: "Poppins-SemiBold";
+    font-style: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: #071E48
+}
+
+h6 {
+    font-family: "Poppins-Medium";
+    font-style: normal;
+    font-size: 20px;
+    line-height: 36px;
+    color: #071E48
+}
+
+#subtitle {
+    color: #071E48;
+    font-family: 'Poppins-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    margin-bottom: 80px;
+}
 
 h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-    text-align: center;}
+    color: #FF9849;
+    font-family: 'Poppins-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+
+    letter-spacing: 0.135em;
+    text-transform: uppercase;
+
+    text-align: center;
+}
 
 p {
-    margin: 20px;
+    font-family: 'Poppins-Medium';
+    font-size: 18px;
+    line-height: 30px;
+
+    color: #7B7B7B;
+
+}
+
+h3 {
+    font-family: 'Poppins-SemiBold';
+    font-size: 16px;
+    line-height: 21px;
 }
 </style>

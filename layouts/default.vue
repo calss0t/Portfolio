@@ -42,7 +42,7 @@
     color: green
 }
 nav {
-    background-color: rgba(255, 255, 255, 0.373);
+    background-color: #F2F0ED;
     /* flex-direction: row; */
     position: fixed;
     /* margin-bottom: 10px; */
