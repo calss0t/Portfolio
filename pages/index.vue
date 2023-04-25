@@ -1,16 +1,19 @@
 <template>
     <div>
+        <br>
+        <br>
         <h1>Pol Texido</h1>
         <h2>Fullstack developer</h2>
 
-        <About />
-        <Portfolio />
-        <Contact />
+        <About id="about" />
+        <Portfolio id="portfolio" />
+        <Contact id="contact" />
 
     </div>
 </template>
 
 <script setup>
+
 
 </script>
 

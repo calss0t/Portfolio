@@ -1,5 +1,8 @@
 <template>
     <div id="block">
+        <br>
+        <br>
+        <br>
         <h2>About me</h2>
         <div id="about" class="flex flex-row">
             <img src="./../images/Profile-picture.jpg">

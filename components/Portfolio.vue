@@ -1,5 +1,8 @@
 <template>
     <div>
+        <br>
+        <br>
+        <br>
         <h2>Portfolio</h2>
         <div id="Project">
             <div id="Card">
@@ -140,15 +143,15 @@
                             </p>
                             <h3 class="mb-2 tracking-tight text-gray-900 dark:text-white">Stack:</h3>
                             <div class="flex flex-row justify-between">
-                                <img alt="JavaScript" id="logo"
-                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                                <img alt="HTML5" id="logo"
-                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
-                                <img alt="CSS3" id="logo"
-                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
                                 <img alt="Python3" id="logo" src="https://img.icons8.com/color/512/python.png" />
                                 <img alt="Django" id="logo"
                                     src="https://toppng.com/uploads/preview/django-python-logo-apress-the-definitive-guide-to-django-web-development-11562875828mqany5qert.png" />
+                                    <img alt="HTML5" id="logo"
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+                                <img alt="CSS3" id="logo"
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+                                    <img alt="JavaScript" id="logo"
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                                 <img alt="Vercel" id="logo"
                                     src="https://camo.githubusercontent.com/add2c9721e333f0043ac938f3dadbc26a282776e01b95b308fcaba5afaf74ae3/68747470733a2f2f6173736574732e76657263656c2e636f6d2f696d6167652f75706c6f61642f76313538383830353835382f7265706f7369746f726965732f76657263656c2f6c6f676f2e706e67" />
                             </div>
