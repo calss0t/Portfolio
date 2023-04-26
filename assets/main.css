@@ -26,3 +26,17 @@
     font-display: swap;
     src: url('./fonts/Poppins-Bold.ttf') format('truetype');
 }
+@font-face {
+    font-family: 'Poppins-ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url('./fonts/Poppins-ExtraBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Mulish-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('./fonts/Mulish-Bold.ttf') format('truetype');
+}

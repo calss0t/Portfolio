@@ -2,24 +2,26 @@
     <div id="block">
         <h2>Ability</h2>
         <p id="subtitle">My Skills</p>
-        <div class="flex felx-row">
-            <div id="skills_languages">
-                <h5>Languages</h5>
-                <h6>TypeScript, JavaScript, Python, CSS</h6>
-                <h5>Frontend</h5>
-                <h6>React, React Native, HTML, Django, Vue, Nuxt</h6>
-                <h5>Backend</h5>
-                <h6>PostgreSQL, Knex, Express, JWT</h6>
-                <h5>Others</h5>
-                <h6>Git, GitHub Projects, Postman, Mocha, Chai</h6>
-            </div>
-            <div id="languages">
-                <h5>I speak in:</h5>
-                <h6>English - Business Level (TOEIC 990)</h6>
-                <h6>Spanish - Native</h6>
-                <h6>Catalan - Native</h6>
-                <h6>Japanese - Conversational (~N3)</h6>
-                <h6>French - Basic</h6>
+        <div id="skills_block">
+            <div class="flex felx-row">
+                <div id="skills_languages">
+                    <h5>Languages</h5>
+                    <h6>TypeScript, JavaScript, Python, CSS</h6>
+                    <h5>Frontend</h5>
+                    <h6>React, React Native, HTML, Django, Vue, Nuxt</h6>
+                    <h5>Backend</h5>
+                    <h6>PostgreSQL, Knex, Express, JWT</h6>
+                    <h5>Others</h5>
+                    <h6>Git, GitHub Projects, Postman, Mocha, Chai</h6>
+                </div>
+                <div id="languages">
+                    <h5>I speak in:</h5>
+                    <h6>English - Business Level (TOEIC 990)</h6>
+                    <h6>Spanish - Native</h6>
+                    <h6>Catalan - Native</h6>
+                    <h6>Japanese - Conversational (~N3)</h6>
+                    <h6>French - Basic</h6>
+                </div>
             </div>
         </div>
     </div>
@@ -34,6 +36,12 @@
     margin: auto;
     align-items: center;
 } */
+#skills_block {
+    width: 75%;
+    margin: auto;
+    /* align-content:flex-end; */
+    align-self: center;
+}
 
 h2 {
     padding-top: 110px;
@@ -56,9 +64,19 @@ h2 {
 }
 
 #skills_languages {
-    margin-left: 172px;
-    margin-right: 150px;
+    /* margin-left: 172px;
+    margin-right: 150px; */
     padding-bottom: 114px;
+    margin-right: 100px;
+    display: inline-block;
+    text-align: left;
+
+}
+
+#languages {
+    display: inline-block;
+    text-align: left;
+
 }
 
 h5 {

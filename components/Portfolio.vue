@@ -6,7 +6,7 @@
             <div id="Card">
                 <NuxtLink to="https://play.google.com/store/apps/details?id=com.tomotabi.TomoTabi" target="_blank">
                     <div class="flex flex-col items-center rounded-lg shadow md:flex-row 
-                hover:bg-orange-200">
+                hover:bg-[#ff984954]">
                         <img class="object-cover rounded-t-lg md:rounded-none md:rounded-l-lg"
                             src="./../images/TomoTabi.png" alt="">
                         <div class="flex flex-col justify-between p-4 leading-normal">
@@ -18,7 +18,7 @@
                                 next trip with your friends and keep track of expenses and how much money is owed after the
                                 trip. This app is deployed on the Google Store play.</p>
                             <h3>Stack:</h3>
-                            <div class="flex flex-row justify-between">
+                            <div id="stack">
                                 <img alt="JavaScript" id="logo"
                                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                                 <img alt="TypeScript" id="logo"
@@ -46,7 +46,7 @@
             <div id="Card">
                 <NuxtLink to="https://github.com/calss0t/Saga" target="_blank">
                     <div class="flex flex-col items-center rounded-lg shadow md:flex-row 
-                hover:bg-orange-100">
+                    hover:bg-[#ff984954]">
                         <img class="object-cover rounded-t-lg md:rounded-none md:rounded-l-lg" src="./../images/Saga.png"
                             alt="">
                         <div class="flex flex-col justify-between p-4 leading-normal">
@@ -60,7 +60,7 @@
                                 routes and worked on creating the database.
                             </p>
                             <h3>Stack:</h3>
-                            <div class="flex flex-row justify-between">
+                            <div id="stack">
                                 <img alt="JavaScript" id="logo"
                                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                                 <img alt="TypeScript" id="logo"
@@ -86,7 +86,7 @@
             <div id="Card">
                 <NuxtLink to="https://github.com/calss0t/Twin-Shot" target="_blank">
                     <div class="flex flex-col items-center rounded-lg shadow md:flex-row 
-                hover:bg-orange-100">
+                    hover:bg-[#ff984954]">
                         <img class="object-cover rounded-t-lg md:rounded-none md:rounded-l-lg"
                             src="./../images/Twin-shot.png" alt="">
                         <div class="flex flex-col justify-between p-4 leading-normal">
@@ -97,7 +97,7 @@
                                 you keep up to date with your favourite sport teams and leagues.
                             </p>
                             <h3>Stack:</h3>
-                            <div class="flex flex-row justify-between">
+                            <div id="stack">
                                 <img alt="JavaScript" id="logo"
                                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                                 <img alt="TypeScript" id="logo"
@@ -120,7 +120,7 @@
             <div id="Card">
                 <NuxtLink to="https://polyglottal.vercel.app/" target="_blank">
                     <div class="flex flex-col items-center rounded-lg shadow md:flex-row 
-                hover:bg-orange-100">
+                    hover:bg-[#ff984954]">
                         <img class="object-cover rounded-t-lg md:rounded-none md:rounded-l-lg" src="./../images/Restore.png"
                             alt="">
                         <div class="flex flex-col justify-between p-4 leading-normal">
@@ -131,7 +131,7 @@
                                 can play games.
                             </p>
                             <h3>Stack:</h3>
-                            <div class="flex flex-row justify-between">
+                            <div id="stack" >
                                 <img alt="Python3" id="logo" src="https://img.icons8.com/color/512/python.png" />
                                 <img alt="Django" id="logo"
                                     src="https://toppng.com/uploads/preview/django-python-logo-apress-the-definitive-guide-to-django-web-development-11562875828mqany5qert.png" />
@@ -153,9 +153,7 @@
 </template>
 
 <script setup>
-// definePageMeta({
-//     layout: 'portfolio'
-// })
+
 </script>
 
 <style scoped>
@@ -230,8 +228,13 @@ p {
     font-family: 'Poppins-Medium';
     font-size: 18px;
     line-height: 30px;
-
     color: #7B7B7B;
+}
+
+#stack {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
 
 }
 
