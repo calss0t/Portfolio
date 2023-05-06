@@ -11,7 +11,7 @@
                         new ways
                         to make those application look good. </p>
                     <div class="flex flex-row">
-                        <a id="CV" href="./../images/Pol_Texido_Resume.pdf" target="_blank">Download My CV</a>
+                        <a id="CV" href="/pdf/Pol_Texido_Resume.pdf" target="_blank">Download My CV</a>
                         <!-- //Change this it dowload my CV -->
                         <NuxtLink :to="{ hash: '#contact' }" :external="false" id="contactMe">Contact Me</NuxtLink>
                     </div>
